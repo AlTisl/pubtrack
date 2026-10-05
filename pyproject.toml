@@ -1,0 +1,14 @@
+[project]
+name = "pubtrack"
+version = "0.1.0"
+description = "Приложение для учёта научных публикаций"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "alembic>=1.20.0",
+    "openpyxl>=3.1.5",
+    "pyinstaller>=6.22.3",
+    "pyside6>=6.11.2",
+    "pyside6-fluent-widgets>=1.11.3",
+    "sqlalchemy>=2.0.52",
+]
