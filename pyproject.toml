@@ -12,3 +12,12 @@ dependencies = [
     "pyside6-fluent-widgets>=1.11.3",
     "sqlalchemy>=2.0.52",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-qt>=4.5.0",
+]
+
+[tool.pytest.ini_options]
+markers = ["us_01(criteria): тест относится к критерию приёмки из User Story US-01"]
